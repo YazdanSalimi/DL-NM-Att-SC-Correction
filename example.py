@@ -1,4 +1,4 @@
-from DL_NM_Att_SC_Correction import DL_inference
+from NM_DL_ACSC import DL_inference
 """
 Easy to use!
 list_images is a list containing the addreess to your NIFTI input files on your machine.
