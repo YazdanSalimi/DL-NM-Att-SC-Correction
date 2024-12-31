@@ -6,7 +6,7 @@ Multiple tasks for SPECT and PET CT less ateenuation and scatter corerction is a
 Please give the path to the "model directory" on your machine where you saved the trained models downloaded for each specific task. All the models were trained using cross validation and five separate models (folds) is available for each task. the final output is the ensembled version of all folds. the user can select a lower number of folds for faster inference. 
 The inference will be automatically on CUDA device, please ensure you set up your device properly before installing the repository.
 ## Available models
-[PET joint attenuation and scatter correction for 18FDG](https://drive.google.com/drive/folders/1kwuqKe0-Vqa-B0YsHn8UXiWJsE4LL188?usp=drive_link)
+[PET joint attenuation and scatter correction for 18FDG](https://drive.google.com/drive/folders/1kwuqKe0-Vqa-B0YsHn8UXiWJsE4LL188?usp=drive_link). please cite this [paper](https://doi.org/10.1097/rlu.0000000000004912) for FDG PET models. 
 
 To install this repository, simply run:
 ```bash
